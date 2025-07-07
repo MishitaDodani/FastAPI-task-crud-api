@@ -3,8 +3,10 @@
 ## How to Run
 
 ### 1. Clone the repository
+```bash
 git clone https://github.com/MishitaDodani/FastAPI-task-crud-api.git
-cd Task API
+cd FastAPI-task-crud-api
+```
 
 ### 2. Create a virtual environment
 python -m venv venv
