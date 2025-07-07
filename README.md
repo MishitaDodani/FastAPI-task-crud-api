@@ -9,16 +9,22 @@ cd FastAPI-task-crud-api
 ```
 
 ### 2. Create a virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  
 or 
 venv\Scripts\activate on Windows
+```
 
 ### 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Run the API
+```bash
 uvicorn main:app --reload
+```
 
 ### 5. Visit the API documentation
 Go to: http://127.0.0.1:8000/docs
